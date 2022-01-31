@@ -2,7 +2,7 @@ animframe = {}
 
 function loadNoise()
 	for i = 1, 4 do
-		animframe[i] = lgnewImage("assets/images/bg/noise"..i..".jpg")
+		animframe[i] = lgnewImage("assets/images/bg/noise"..i..".png")
 	end
 end
 
@@ -41,11 +41,11 @@ function event_init(etype,arg1,arg2)
 			s_kill = lgnewImage('assets/images/cg/s_kill/s_kill.png')
 			s_kill2 = lgnewImage('assets/images/cg/s_kill/s_kill2.png')
 			s_killzoom = lgnewImage('assets/images/cg/s_kill/s_killzoom.png')
-			s_kill_bg = lgnewImage('assets/images/bg/s_kill/s_kill_bg.jpg')
-			s_kill_bg2 = lgnewImage('assets/images/bg/s_kill/s_kill_bg2.jpg')
-			s_kill_bgzoom = lgnewImage('assets/images/bg/s_kill/s_kill_bgzoom.jpg')
-			splash_glitch = lgnewImage('assets/images/bg/splash-glitch.jpg')
-			exception = lgnewImage('assets/images/bg/s_kill/ex2.jpg')
+			s_kill_bg = lgnewImage('assets/images/bg/s_kill/s_kill_bg.png')
+			s_kill_bg2 = lgnewImage('assets/images/bg/s_kill/s_kill_bg2.png')
+			s_kill_bgzoom = lgnewImage('assets/images/bg/s_kill/s_kill_bgzoom.png')
+			splash_glitch = lgnewImage('assets/images/bg/splash-glitch.png')
+			exception = lgnewImage('assets/images/bg/s_kill/ex2.png')
 			loadNoise()
 		elseif etype == 'endscreen' then
 			if arg1 == 'flipped' then
@@ -82,16 +82,16 @@ function event_init(etype,arg1,arg2)
 			animframe[3] = lgnewImage('assets/images/yuri/zc.png')
 			animframe[4] = lgnewImage('assets/images/yuri/zd.png')
 		elseif etype == 'yuri_ch23' then
-			bg_glitch = lgnewImage('assets/images/bg/glitch.jpg')
+			bg_glitch = lgnewImage('assets/images/bg/glitch.png')
 			eyes1 = lgnewImage('assets/images/yuri/eyes1.png')
 			loadYuriGlitch()
 		elseif etype == 'm_ch23ex' then
-			ex3top = lgnewImage('assets/images/bg/ex3top.jpg')
+			ex3top = lgnewImage('assets/images/bg/ex3top.png')
 		elseif etype == 'just_monika' then
 			if arg1 == 'ch30' then
-				splash = lgnewImage('assets/images/bg/splash-glitch2.jpg')
+				splash = lgnewImage('assets/images/bg/splash-glitch2.png')
 			else
-				splash = lgnewImage('assets/images/bg/splash.jpg')
+				splash = lgnewImage('assets/images/bg/splash.png')
 			end
 		elseif etype == 'natsuki_ch22' then --oh snap
 			ghost_blood = lgnewImage('assets/images/natsuki/ghost_blood.png')
@@ -108,14 +108,14 @@ function event_init(etype,arg1,arg2)
 			stab6 = lgnewImage('assets/images/yuri/stab/6.png')
 			stab6f = lgnewImage('assets/images/yuri/stab/6-full.png')
 		elseif etype == 'beforecredits' then
-			end_glitch1 = lgnewImage('assets/images/bg/end-glitch1.jpg')
-			end_glitch2 = lgnewImage('assets/images/bg/end-glitch2.jpg')
-			end_glitch3 = lgnewImage('assets/images/bg/end-glitch3.jpg')
+			end_glitch1 = lgnewImage('assets/images/bg/end-glitch1.png')
+			end_glitch2 = lgnewImage('assets/images/bg/end-glitch2.png')
+			end_glitch3 = lgnewImage('assets/images/bg/end-glitch3.png')
 			loadNoise()
 			loadVignette()
 		elseif etype == 'sayori_gs' then
-			sayori_gs1 = lgnewImage('assets/images/bg/GlitchSayoriScreen1.jpg')
-			sayori_gs2 = lgnewImage('assets/images/bg/GlitchSayoriScreen2.jpg')
+			sayori_gs1 = lgnewImage('assets/images/bg/GlitchSayoriScreen1.png')
+			sayori_gs2 = lgnewImage('assets/images/bg/GlitchSayoriScreen2.png')
 		end
 		if arg1 == 'show_noise' then
 			loadNoise()

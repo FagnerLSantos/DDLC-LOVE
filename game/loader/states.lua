@@ -15,7 +15,7 @@ function changeState(cstate,x)
 	end
 	
 	if cstate == 'splash' then
-		splash = lgnewImage('assets/images/bg/splash.jpg')
+		splash = lgnewImage('assets/images/bg/splash.png')
 		alpha = 0
 		audioUpdate('1')
 	elseif cstate == 'title' then
@@ -89,10 +89,10 @@ function changeState(cstate,x)
 		if persistent.ptr <= 2 then --acts 1 and 2
 			audioUpdate('4',true)
 			bg1 = 'notebook'
-			if not notebook then notebook = lgnewImage('assets/images/bg/notebook.jpg') end
+			if not notebook then notebook = lgnewImage('assets/images/bg/notebook.png') end
 		elseif persistent.ptr == 3 then --act 3
 			audioUpdate('ghostmenu')
-			notebook_glitch = lgnewImage('assets/images/bg/notebook-glitch.jpg')
+			notebook_glitch = lgnewImage('assets/images/bg/notebook-glitch.png')
 		end
 		
 		if poemstate == 0 and not poemtime then --first time poemgame

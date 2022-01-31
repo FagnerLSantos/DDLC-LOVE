@@ -12,7 +12,7 @@ function loaderAssets(l_timer)
 	elseif l_timer == 97 then
 		sfx1 = love.audio.newSource('assets/audio/sfx/select'..audio_ext,'static')
 		sfx2 = love.audio.newSource('assets/audio/sfx/hover'..audio_ext,'static')
-		menu_bg_m = lgnewImage("assets/images/gui/menu_bg_m.jpg")
+		menu_bg_m = lgnewImage("assets/images/gui/menu_bg_m.png")
 		gui.keysbox = lgnewImage("assets/images/gui/button/box.png")
 		gui.mmenu = lgnewImage("assets/images/gui/overlay/main_menu.png")
 		gui.gmenu = lgnewImage("assets/images/gui/overlay/game_menu.png")
@@ -24,7 +24,7 @@ function loaderAssets(l_timer)
 		if g_system == 'PSP' then
 			menu_bg = lgnewImage('assets/images/gui/menu_bg.png')
 		else
-			menu_bg = lgnewImage('assets/images/gui/menu_bg.jpg')
+			menu_bg = lgnewImage('assets/images/gui/menu_bg.png')
 		end
 		gui.check = lgnewImage('assets/images/gui/button/check_selected_foreground.png')
 		gui.ctc = lgnewImage('assets/images/gui/ctc.png')

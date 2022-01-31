@@ -3,10 +3,10 @@ function loaderPoems()
 		sfxplay('pageflip')
 		if poem_author == 'yuri' then
 			if yuri_2 then
-				poembg = lgnewImage('assets/images/bg/poem_y1.jpg')
+				poembg = lgnewImage('assets/images/bg/poem_y1.png')
 				audioUpdate('0')
 			elseif yuri_3 then
-				poembg = lgnewImage('assets/images/bg/poem1.jpg')
+				poembg = lgnewImage('assets/images/bg/poem1.png')
 				audioUpdate('5_yuri2')
 			else
 				if not y1 then y1 = lg.newFont('assets/fonts/y1.ttf',33) end --yuri poem font
@@ -26,7 +26,7 @@ function loaderPoems()
 		if poem_author == 'monika' and not m1 then
 			m1 = lg.newFont('assets/fonts/m1.ttf',30) --monika poem font
 		end
-		if not poembg then poembg = lgnewImage("assets/images/bg/poem.jpg") end
+		if not poembg then poembg = lgnewImage("assets/images/bg/poem.png") end
 		poem_scroll = {x=1,y=1}
 	
 	elseif xaload > 0 then

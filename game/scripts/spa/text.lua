@@ -51,7 +51,7 @@ tr.splash = {
 	"             Este juego no es apto",
 	"para menores o personas sensibles.",
 	"Ahora todas serán felices.",
-	"Port realizado por LukeeGD\nTraducido por:\nGlowTranslations\n\nVersión 1.1" --you may add more credits here
+	"Port realizado por LukeeGD\n\n  Corrección de errores en \n        esta versión por\n     FLS Gaming Projects\n\n                Traducido por:\n                GlowTranslations\n                Versión 1.1" --you may add more credits here
 }
 tr.menuitem = {'Sí','No','Borrar ','Restaurar todo'}
 tr.menuhelp = {

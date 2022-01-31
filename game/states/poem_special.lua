@@ -10,17 +10,17 @@ function poem_special_i(poem)
 	poemsp = {}
 	poemsp.topX = 240
 	if p_number == 5 then
-		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special5a.jpg')
+		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special5a.png')
 	elseif p_number == 7 then
 		poemsp.topimg = lgnewImage('assets/images/poem_special/poem_special7a.png')
 		poemsp.topX = 328
 	elseif p_number == 12 then
-		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_end.jpg')
+		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_end.png')
 	elseif p_number == 13 then
-		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_end_clearall.jpg')
+		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_end_clearall.png')
 		poemsp.topX = 0
 	else
-		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special'..p_number..'.jpg')
+		poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special'..p_number..'.png')
 	end
 	state = 'poem_special'
 	xaload = 0
@@ -75,7 +75,7 @@ function poem_special_keypressed(key)
 			xaload = 0
 			sfxplay('giggle')
 		elseif p_number == 5 then
-			poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special5b.jpg')
+			poemsp.topimg = lgnewImage('assets/images/poem_special/'..settings.lang..'/poem_special5b.png')
 		elseif p_number == 7 then
 			poemsp.topimg = lgnewImage('assets/images/poem_special/poem_special7b.png')
 		end

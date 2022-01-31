@@ -51,7 +51,7 @@ tr.splash = {
 	"This game is not suitable for children",
 	"  or those who are easily disturbed.",
 	"Now everyone can be happy.",
-	"Unofficial port by LukeeGD"--.."\nTranslations by: ..." --you may add more credits here
+	"Unofficial port by LukeeGD\n\n        Version bugfix by\n     FLS Gaming Projects"--.."\nTranslations by: ..." --you may add more credits here
 }
 tr.menuitem = {'Yes','No','Delete ','Restore All'}
 tr.menuhelp = {

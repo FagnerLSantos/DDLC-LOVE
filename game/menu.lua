@@ -26,7 +26,7 @@ local hold = {0,0,0,0}
 menu_alpha = 0
 
 function savepicLoad(i)
-	save_bpic[i] = lgnewImage('assets/images/bg/save/'..loadstring('return save'..chch..'.bg1')()..'.jpg')
+	save_bpic[i] = lgnewImage('assets/images/bg/save/'..loadstring('return save'..chch..'.bg1')()..'.png')
 end
 
 function savepicFree()
